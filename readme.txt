@@ -10,6 +10,7 @@ If you use this code please cite the paper:
   year={2016}
 }
 
+The /lib folder is taken from Newmu/dcgan_code.
 
 To run code:
 1)Install all the requirements in requirements.txt
