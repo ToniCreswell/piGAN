@@ -29,7 +29,8 @@ def initBias(size):
 	b=np.zeros(size)
 	return theano.shared(np.asarray(b,dtype=floatX),borrow=True,name='b')
 
-#- initGain (all ones)  
+#- initGain (all ones)
+def initGain(size):  
 	ginit=np.ones(size)
 	return theano.shared(np.asarray(ginit,dtype=floatX),borrow=True,name='g')
 	
